@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+    <link rel="shortcut icon" href="img/qr-code-svgrepo-com.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div class="container">
+        <header id="qr-header">
+            <h2>Gerador de QR Code</h2>
+            <p>Insira um link ou texto que deseja criar o QR Code</p>
+        </header>
+
+        <div id="qr-reader">
+            <input type="text" placeholder="Insira seu link ou texto">
+            <button>Gerar QR Code</button>
+        </div>
+
+        <div id="qr-code">
+            <a href="">
+                <img src="img/qrcode.png" alt="QR CODE">
+            </a>
+            <button id="download-btn" onclick="downloadQrCode()">DOWNLOAD QR CODE</button>
+        </div>
+    </div>
+</body>
+</html>
