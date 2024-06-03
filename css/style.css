@@ -154,9 +154,9 @@ p#qr-gerado {
     }
 
     #qr-reader button{
-        padding-inline: .4rem;
+        padding-inline: .2rem;
     }
     #qr-reader input[type='text'] {
-        padding: .8rem .2rem;
+        padding: .8rem .4rem;
     }
 }
