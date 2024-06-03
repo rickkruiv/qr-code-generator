@@ -123,6 +123,15 @@ p#qr-gerado {
     transition: .2s;
     font-size: .8rem;
     text-decoration: none;
+    cursor: pointer;
+}
+
+#download-btn:hover{
+    box-shadow: inset -2px -2px 10px -5px rgba(0,0,0,0.35);
+}
+
+#download-btn:active {
+    transform: scale(.98);
 }
 
 @media (max-width: 510px) {
